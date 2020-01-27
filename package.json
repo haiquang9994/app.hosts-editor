@@ -1,0 +1,31 @@
+{
+  "name": "hosts-editor",
+  "version": "1.0.0",
+  "description": "Hosts Editor",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Light",
+  "repository": "",
+  "dependencies": {
+    "auto-launch": "^5.0.5"
+  },
+  "devDependencies": {
+    "electron": "^7.1.10",
+    "electron-builder": "^22.3.2"
+  },
+  "build": {
+    "appId": "com.hipingu.hosts-editor",
+    "productName": "Hosts Editor",
+    "win": {
+      "requestedExecutionLevel": "highestAvailable",
+      "icon": "./src/icon/icon.png"
+    },
+    "copyright": "Copyright © 2020 ${author}",
+    "extraMetadata": {
+      "name": "Hosts Editor"
+    }
+  }
+}
